@@ -33,7 +33,9 @@ public class Product {
     public void setCategory(Category category) {
         this.category = category;
     }
-
+    public Category getCategory() {
+        return category;
+    }
     public double getPrice() {
         return price;
     }
